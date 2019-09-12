@@ -34,8 +34,9 @@ adonis migration:run
 
 ### Routes
 
-`/create` - Upload data to database
-`/infos` - Access information saved in database
+GET `/create` - Upload data to database
+<br />
+GET `/infos` - Access information saved in database
 
 The Route returns paginated, 20 lines per page. To access them just send the query with the desired page.
 
